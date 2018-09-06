@@ -1,0 +1,8 @@
+Angela Baker
+Data Wrangling & Cleaning 
+Of Captone_1 Data
+The cleaning steps performed on these data frames were multifaceted. The original data contained many unnecessary columns that were irrelevant to the question at hand, that question being were there more or less cases in the communities where public clinics had shut down. 
+Therefore after talking to some other data-scientists that I know I went with deleting those columns in excel and re-saving the file to simply reflect the number of cases per year at each community area. I thought about combining the data, but then realized it would be better represented separately for visualization purposes and clarity later. 
+I then used a jupyter notebook importing the correct modules to read the files as a csv file type and used the .fillna(value=0) to set all missing data to 0, then the .dropna() method on every file to drop the missing data. Most community areas that had missing data had it in every set, which will be more visible later.
+There did not seem to be any outliers in this data, however it is a very small data set which is bringing about its own challenges. 
+This project has taken many hours of careful consideration on which data to keep and which to simply dispose of as it wasn’t relevant. It took me longer than I expected, however talking to colleagues this is the norm and a big part of data science is establishing which data is useful or not, because in real world problems there are real world mistakes, missteps and missing data, and knowing the right way to manage each is helpful to any data scientist.  
